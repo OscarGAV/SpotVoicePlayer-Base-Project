@@ -25,25 +25,6 @@ No mouse, no keyboard. Integrates with Spotify via the official API.
 
 ---
 
-## Project Structure
-
-```
-hand_mouse_controller/
-├── run.py                            # Entry point
-├── setup.py                          # Installs dependencies
-├── requirements.txt                  # Dependencies
-├── .env                              # Spotify credentials (not committed)
-├── .env.example                      # Credentials template
-├── README.md
-├── hand_mouse_controller/
-│   ├── __init__.py
-│   ├── config.py                     # All configurable settings
-│   ├── voice.py                      # Voice recognition and command handling
-│   └── spotify_player.py             # Spotify search and playback
-```
-
----
-
 ## Setup
 
 1. Install Python 3.12 and create a virtual environment:
